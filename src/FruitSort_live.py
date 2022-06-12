@@ -21,18 +21,18 @@ def getFeatures(frame):
     return masked_image
 
 def getPositionFruit():
-    return
+    return None
 
 def getPositionLever():
-    return
+    return None
 
 def ReqdPositionLever():
-    return
+    return None
 
 def ActuateLever():
 
     # Returns required angle of servo actuator 
-    return
+    return None
 
 while True:
     rate, frame = camera.read()

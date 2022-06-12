@@ -17,19 +17,19 @@ def getFrame(frame):
 
 def getFeatures(frame):
     # Classification of image based on features
-    return     
+    return None    
 
 def getPositionFruit():
     # Get position and velocity of moving fruit 
-    return
+    return None
 
 def ReqdPositionLever():
     # Returns required position of lever for putting fruit in desired lane
-    return
+    return None
 
 def ActuateLever():
     # Returns required signal to actuate servo  
-    return
+    return None
 
 img = cv.imread('img\green_apple.jpg')
 image = np.copy(img)
