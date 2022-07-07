@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>apple (281).jpg</filename>
+	<path>C:\Users\Moses Olafenwa\Documents\AI\Custom Datasets\- Apples\DIST\images\apple (281).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>208</width>
+		<height>242</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>56</ymin>
+			<xmax>177</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>
