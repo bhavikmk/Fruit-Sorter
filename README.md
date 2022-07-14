@@ -21,6 +21,8 @@ Sorting is process of arranging mangoes systematically based on respective class
 
 Automatic grading system is implemented using deep neural networks to classify mangoes in respective classes and generate required data used by sorting system to efficiently arrange mangoes.
 
+Implemented using Robotic operating system for computer vision and sorting system
+
 ### Architecture
 
 ... Coming soon
