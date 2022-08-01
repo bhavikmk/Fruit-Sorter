@@ -1,4 +1,7 @@
-# import pytorch libs for training
+import matplotlib.pyplot as plt
+import numpy as np
+
+# PyTorch functions
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -6,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
 import torch.optim as optim
 
-class SpoilTrain(Dataset):
+class RipeTrain(Dataset):
     def __init__(self, data, labels):
         self.data = data
         self.labels = labels
