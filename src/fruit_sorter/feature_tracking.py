@@ -54,11 +54,11 @@ cv2.waitKey(3000)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-surf = cv2.xfeatures2d.SURF_create(400)
+# surf = cv2.xfeatures2d.SURF_create(400)
 
-kp, des = surf.detectAndCompute(img, None)
+# kp, des = surf.detectAndCompute(img, None)
 
-img = cv2.drawKeypoints(img, kp, None,(0,255,0),4)
+# img = cv2.drawKeypoints(img, kp, None,(0,255,0),4)
 
 cv2.imshow("keypoints", img)
 cv2.waitKey(3000)
