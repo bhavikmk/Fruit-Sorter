@@ -24,8 +24,32 @@ Automatic grading system is implemented using deep neural networks to classify m
 Implemented using Robotic operating system for computer vision and sorting system
 
 ### Architecture
+Sequential CNN architecture
 
-... Coming soon
+`model = Sequential([`
+
+`  Rescaling(1./255),`
+
+`  Conv2D(32, 3, activation='relu'),`
+
+`  MaxPooling2D(),`
+
+`  Conv2D(32, 3, activation='relu'),`
+
+`  MaxPooling2D(),`
+
+`  Conv2D(32, 3, activation='relu'),`
+
+`  MaxPooling2D(),`
+
+`  Flatten(),`
+
+`  Dense(128, activation='relu'),`
+
+`  Dense(num_classes)`
+
+`])`
+
 
 ## References
 
