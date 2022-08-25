@@ -46,7 +46,7 @@ Sequential CNN architecture
 
 `  Dense(128, activation='relu'),`
 
-`  Dense(num_classes)`
+`  Dense(3)`
 
 `])`
 
