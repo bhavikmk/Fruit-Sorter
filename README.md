@@ -26,30 +26,6 @@ Implemented using Robotic operating system for computer vision and sorting syste
 ### Architecture
 Sequential CNN architecture
 
-`model = Sequential([`
-
-`  Rescaling(1./255),`
-
-`  Conv2D(32, 3, activation='relu'),`
-
-`  MaxPooling2D(),`
-
-`  Conv2D(32, 3, activation='relu'),`
-
-`  MaxPooling2D(),`
-
-`  Conv2D(32, 3, activation='relu'),`
-
-`  MaxPooling2D(),`
-
-`  Flatten(),`
-
-`  Dense(128, activation='relu'),`
-
-`  Dense(3)`
-
-`])`
-
 
 ## References
 
